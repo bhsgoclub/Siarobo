@@ -75,8 +75,8 @@ async def run(message, matches, chat_id, step):
 
 plugin = {
     "name": "Youtube",
-    "desc": "_Just Send me a_ *Youtube* _Link and get the Download Link immediately._",
-    "usage": ["Youtube Link Retriever"],
+    "desc": "🌐_Just Send me a_ *Youtube* _Link and get the Download Link immediately._\n➖➖➖➖➖➖➖\n🎗 @ButelyBot 🎗",
+    "usage": ["⏺Youtube Link Retriever"],
     "run": run,
     "sudo": False,
     "patterns": [
