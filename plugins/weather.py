@@ -46,9 +46,9 @@ async def run(message, matches, chat_id, step):
 
 plugin = {
     "name": "Weather",
-    "desc": "Show The Weather of a city\n\n"
-            "*For Example :*\n`/weather London`",
-    "usage": ["/weather \\[`City`]"],
+    "desc": "🌐Show The Weather of a city\n\n"
+            "*For Example :*\n`/weather London`\n➖➖➖➖➖➖➖\n🎗 @ButelyBot 🎗",
+    "usage": ["⏺/weather \\[`City`]"],
     "run": run,
     "sudo": False,
     "patterns": ["^/weather (.+?)$"]
