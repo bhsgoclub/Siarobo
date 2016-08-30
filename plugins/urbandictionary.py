@@ -68,9 +68,9 @@ async def run(message, matches, chat_id, step):
 
 plugin = {
     "name": "UrbanDictionary",
-    "desc": "Find A Word in Urban Dictionary.\n\n"
-            "*For Example :*\n`/ud car`",
-    "usage": ["/ud \\[`Word`]"],
+    "desc": "🌐Find A Word in Urban Dictionary.\n\n"
+            "*For Example :*\n`/ud car`\n➖➖➖➖➖➖➖\n🎗 @ButelyBot 🎗",
+    "usage": ["⏺/ud \\[`Word`]"],
     "run": run,
     "sudo": False,
     "patterns": ["^[/!#]ud (.*)"]
