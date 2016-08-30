@@ -58,7 +58,7 @@ async def run(message, matches, chat_id, step):
                     filepath = "tmp/{}.{}".format(uuid.uuid4(), best.extension)
                     await downloader(best.url, filepath)
                     del user_steps[from_id]
-                    return [Message(chat_id).set_audio(filepath, performer="@Siarobot", title=video.title,
+                    return [Message(chat_id).set_audio(filepath, performer="@ButelyBot", title=video.title,
                                                        reply_markup=hide_keyboard)]
             result = "*Click on the bottom link to Download*\n[{}]({})".format(video.title, best.url)
             del user_steps[from_id]
