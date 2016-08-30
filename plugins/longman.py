@@ -81,10 +81,10 @@ async def run(message, matches, chat_id, step):
 
 
 plugin = {
-    "name": "Longman Dictionary",
+    "name": "🌐Longman Dictionary",
     "desc": "Find A Word in Longman Dictionary.\n\n"
-            "*For Example :*\n`/lm car`",
-    "usage": ["/lm \\[`Word`]"],
+            "*For Example :*\n`/lm car`\n➖➖➖➖➖➖➖\n🎗 @ButelyBot 🎗",
+    "usage": ["⏺/lm \\[`Word`]"],
     "run": run,
     "sudo": False,
     "patterns": ["^[/!#]lm (.*)",
