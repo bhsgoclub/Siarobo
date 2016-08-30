@@ -21,14 +21,14 @@ def inline(message, matches, chat_id, step):
 
 plugin = {
     "name": "Echo",
-    "desc": "This is the simplest plugin in the world\nYou can use this plugin to send messages in Markdown Format.\n"
+    "desc": "🌐This is the simplest plugin in the world\nYou can use this plugin to send messages in Markdown Format.\n"
             "\\* *Bold* \\*\n"
             "\\_ _Italic_ \\_\n"
-            "[link](https://telegram.me/siarobot) \\[link](url)\n"
+            "[link](https://telegram.me/ButelyBot) \\[link](url)\n"
             "\\` `inline Fixed-width code` \\`\n"
             "\\`\\`\\` ```Pre-formatted fixed-width code block``` \\`\\`\\`\n\n"
-            "*For Example:*\n/echo \\*How Are You\\* \\_Robot\\_ ?",
-    "usage": ["/echo \\[`Markdown_Text`] _{Inline}_"],
+            "*For Example:*\n/echo \\*How Are You\\* \\_Robot\\_ ?\n➖➖➖➖➖➖➖\n🎗 @ButelyBot 🎗",
+    "usage": ["⏺/echo \\[`Markdown_Text`] _{Inline}_"],
     "inline_patterns": ["^[!/#]echo ([\s\S]*)$"],
     "inline_query": inline,
     "run": run,
