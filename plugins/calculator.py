@@ -39,8 +39,8 @@ async def inline(message, matches, chat_id, step):
 
 plugin = {
     "name": "Calculator",
-    "desc": "With this plugin you can calculate expressions.",
-    "usage": ["/cal \\[`Expression`] _{Inline}_"],
+    "desc": "🌐With this plugin you can calculate expressions.\n➖➖➖➖➖➖➖\n🎗 @ButelyBot 🎗",
+    "usage": ["⏺/cal \\[`Expression`] _{Inline}_"],
     "inline_patterns": ["^[!/#]cal (.*)$"],
     "inline_query": inline,
     "run": run,
