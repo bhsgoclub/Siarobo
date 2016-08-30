@@ -27,7 +27,7 @@ async def run(message, matches, chat_id, step):
 plugin = {
     "name": "Instagram",
     "desc": "🌐_Just Send_ *Instagram Username* _after /insta command_\n"
-            "like `/insta ButelyBot` or `/insta @ButelyBot\n➖➖➖➖➖➖➖\n🎗 @ButelyBot 🎗`",
+            "like `/insta ButelyBot` or `/insta` @ButelyBot\n➖➖➖➖➖➖➖\n🎗 @ButelyBot 🎗",
     "usage": ["⏺/insta \\[`Username`]"],
     "run": run,
     "sudo": False,
