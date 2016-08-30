@@ -30,10 +30,10 @@ def inline(message, matches, chat_id, step):
 
 plugin = {
     "name": "LetMeGoogleThatForYou",
-    "desc": "You can Make lmgtfy links.\n"
+    "desc": "🌐You can Make lmgtfy links.\n"
             "*For Example :*\n\n"
-            "/lmgtfy how to make a bot?",
-    "usage": ["/lmgtfy \\[`Search_Query`]"],
+            "/lmgtfy how to make a bot?\n➖➖➖➖➖➖➖\n🎗 @ButelyBot 🎗",
+    "usage": ["⏺/lmgtfy \\[`Search_Query`]"],
     "inline_patterns": ["^[!/#]lmgtfy (.*)$"],
     "inline_query": inline,
     "run": run,
