@@ -66,17 +66,17 @@ async def run(message, matches, chat_id, step):
                              "tmp/{}.mp3".format(message['text']))
             del user_steps[from_id]
             return [Message(chat_id).set_audio("tmp/{}.mp3".format(message['text']), title=message['text'],
-                                               performer="@Siarobot")]
+                                               performer="@ButelyBot")]
         except Exception as e:
             del user_steps[from_id]
             return [Message(chat_id).set_text("*Wrong Input*\n_Try Again_", parse_mode="markdown")]
 
 
 plugin = {
-    "name": "Soundcloud",
+    "name": "🌐Soundcloud",
     "desc": "Download a Music From Sound Cloud\n\n"
-            "*For Start :*\n`/sc michael jackson billie jean`",
-    "usage": ["/sc \\[`Search`]"],
+            "*For Start :*\n`/sc michael jackson billie jean`\n➖➖➖➖➖➖➖\n🎗 @ButelyBot 🎗",
+    "usage": ["⏺/sc \\[`Search`]"],
     "run": run,
     "sudo": False,
     "patterns": ["^[/!#]sc (.*)$"]
