@@ -20,9 +20,9 @@ def run(message, matches, chat_id, step):
 
 plugin = {
     "name": "Caption",
-    "desc": "You Can Use This Plugin To Set Caption On Photos, Videos, Documents and gifs.\n"
-            "*For Example:*\nJust _Reply_ a photo and send `/cap this is the caption`",
-    "usage": ["/cap \\[`Caption_Text`] _<reply>_"],
+    "desc": "🌐You Can Use This Plugin To Set Caption On Photos, Videos, Documents and gifs.\n"
+            "*For Example:*\nJust _Reply_ a photo and send `/cap this is the caption`\n➖➖➖➖➖➖➖\n🎗 @ButelyBot 🎗",
+    "usage": ["⏺/cap \\[`Caption_Text`] _<reply>_"],
     "run": run,
     "sudo": False,
     "patterns": ["^[!/#]cap ([\s\S]*)$"]
