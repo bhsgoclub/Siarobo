@@ -71,8 +71,8 @@ def run(message, matches, chat_id, step):
 
 plugin = {
     "name": "Who",
-    "desc": "Show user id or group id.",
-    "usage": ["/who", "/id"],
+    "desc": "🌐Show user id or group id.\n➖➖➖➖➖➖➖\n🎗 @ButelyBot 🎗",
+    "usage": ["⏺/who", "/id"],
     "run": run,
     "sudo": False,
     "patterns": ["^[!/#]who$",
